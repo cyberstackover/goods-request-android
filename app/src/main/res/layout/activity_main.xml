@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/drawable_activity_main_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Titip apapun dari negera manapun!"
+        android:layout_marginTop="64dp"
+        android:textStyle="bold"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:text="Anda bisa mulai berbelanja barang dari negara manapun"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="18sp"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/activity_main_btn_buyer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="24dp"
+        android:padding="12dp"
+        android:text="Beli"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/textColorPrimary" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:text="Atau menjadi traveler penjual"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="18sp"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/activity_main_btn_seller"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="24dp"
+        android:padding="12dp"
+        android:text="Jual"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/textColorPrimary" />
+
+</LinearLayout>

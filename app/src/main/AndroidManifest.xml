@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bananastech.nitip" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".activities.MainActivity" >
+        </activity>
+        <activity
+            android:name=".activities.buyer.BuyerMainActivity"
+            android:label="Buy Stuff">
+        </activity>
+        <activity android:name=".activities.buyer.BuyerDetailItemActivity" >
+        </activity>
+        <activity
+            android:name=".activities.buyer.BuyerListTripActivity"
+            android:label="Available Trip">
+        </activity>
+        <activity
+            android:name=".activities.buyer.BuyerRequestItemActivity"
+            android:label="Request Item">
+        </activity>
+        <activity
+            android:name=".activities.seller.SellerMainActivity"
+            android:label="My Trip List">
+        </activity>
+        <activity
+            android:name=".activities.seller.SellerCreateTripActivity"
+            android:label="Create New Trip">
+        </activity>
+        <activity
+            android:name=".activities.seller.SellerRequestItemActivity"
+            android:label="Items Request">
+        </activity>
+        <activity
+            android:name=".activities.seller.SellerDetailRequestActivity"
+            android:label="Detail Request">
+        </activity>
+        <activity android:name=".activities.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.RegisterActivity">
+        </activity>
+    </application>
+
+</manifest>
